@@ -3,3 +3,9 @@
 }
 
 <h2>Index</h2>
+<div>This really is our view!</div>
+
+@if(TempData["SuccessMessage"]!=null)
+{
+    <div class="success-messaage">@TempData["SuccessMessage"]</div>
+}
