@@ -38,5 +38,10 @@ namespace Auction.Controllers
             return View(auction);
         }
 
+        public ActionResult Amar()
+        {
+            return View();
+        }
+
     }
 }
